@@ -55,7 +55,9 @@ int main() {
                 inputAngka();
                 if (apakahPrima(angka)) 
                     cout << angka << " adalah Bilangan Prima." << endl;
-               
+                else 
+                    cout << angka << " BUKAN Bilangan Prima." << endl;
+                break;
         }
     }
 }
