@@ -11,5 +11,10 @@ void tampilkanmenu(){
     cout<<"1. mengecek bilangan prima";
     cout<<"2. mengecek bilangan Fibonacci";
     cout<<"3. keluar dari menu";
-    cin>> pilihan;
+    cout<<"pilihan menu";
+}
+
+void inputData() {
+    cout << "Masukkan angka yang ingin dicek: ";
+    cin >> angka;
 }
