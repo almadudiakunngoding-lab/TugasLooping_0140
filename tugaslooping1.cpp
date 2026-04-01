@@ -58,6 +58,11 @@ int main() {
                 else 
                     cout << angka << " BUKAN Bilangan Prima." << endl;
                 break;
-        }
-    }
-}
+
+                case 2:
+                inputAngka();
+                if (apakahFibonacci(angka))
+                    cout << angka << " adalah bagian dari deret Fibonacci." << endl;
+                else
+                    cout << angka << " BUKAN bagian dari deret Fibonacci." << endl;
+                break;
