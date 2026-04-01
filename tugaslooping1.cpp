@@ -66,3 +66,7 @@ int main() {
                 else
                     cout << angka << " BUKAN bagian dari deret Fibonacci." << endl;
                 break;
+
+            default:
+                cout << "Pilihan tidak valid! Silakan coba lagi." << endl;
+                break;
