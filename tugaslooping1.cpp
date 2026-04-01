@@ -18,3 +18,6 @@ void inputData() {
     cout << "Masukkan angka yang ingin dicek: ";
     cin >> angka;
 }
+
+bool apakahPrima(int n) {
+   
