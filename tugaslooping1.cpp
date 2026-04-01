@@ -51,7 +51,11 @@ int main() {
         }
 
         switch (pilihan) {
-           
+            case 1:
+                inputAngka();
+                if (apakahPrima(angka)) 
+                    cout << angka << " adalah Bilangan Prima." << endl;
+               
         }
     }
 }
