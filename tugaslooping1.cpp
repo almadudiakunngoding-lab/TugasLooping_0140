@@ -40,4 +40,7 @@ bool apakahPrima(int n) {
         c = a + b;
     }
     return false;
-}   
+}  
+int main() {
+
+}
