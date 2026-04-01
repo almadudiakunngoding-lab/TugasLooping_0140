@@ -5,3 +5,6 @@ using namespace std;
 
 int angka;
 int pilihan;
+
+void tampilkanmenu(){
+   
