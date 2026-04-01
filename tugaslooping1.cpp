@@ -43,4 +43,11 @@ bool apakahPrima(int n) {
 }  
 int main() {
     while (true) {
-        
+        tampilkanMenu();
+
+        if (pilihan == 0) {
+            cout << "Keluar dari program. Terima kasih!" << endl;
+            break; 
+        }
+    }
+}
