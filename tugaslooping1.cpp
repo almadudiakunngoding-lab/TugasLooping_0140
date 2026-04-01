@@ -46,8 +46,12 @@ int main() {
         tampilkanMenu();
 
         if (pilihan == 0) {
-            cout << "Keluar dari program. Terima kasih!" << endl;
+            cout<<"Keluar dari program. Terima kasih!" << endl;
             break; 
+        }
+
+        switch (pilihan) {
+           
         }
     }
 }
