@@ -51,7 +51,7 @@ int main() {
         }
 
         switch (pilihan) {
-            case 1:
+                case 1:
                 inputAngka();
                 if (apakahPrima(angka)) 
                     cout << angka << " adalah Bilangan Prima." << endl;
@@ -70,3 +70,7 @@ int main() {
             default:
                 cout << "Pilihan tidak valid! Silakan coba lagi." << endl;
                 break;
+    }
+}  
+
+return 0;
