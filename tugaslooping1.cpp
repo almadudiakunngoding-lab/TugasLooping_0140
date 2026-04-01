@@ -27,3 +27,10 @@ bool apakahPrima(int n) {
         i++;
     }
     return true;
+}
+ bool apakahFibonacci(int n) {
+    int a = 0, b = 1;
+    if (n == a || n == b) return true;
+    
+   
+}   
