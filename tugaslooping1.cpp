@@ -42,5 +42,5 @@ bool apakahPrima(int n) {
     return false;
 }  
 int main() {
-
-}
+    while (true) {
+        
